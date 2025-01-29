@@ -120,3 +120,14 @@ button:hover {
         font-size:30px;
     }
 }
+
+.password-text{
+    white-space: nowrap;
+}
+
+.password{
+    display: flex;
+    align-items: center;
+    gap: 19vw; /* Расстояние между текстом и полем ввода */
+    margin-bottom: 10px;
+}
