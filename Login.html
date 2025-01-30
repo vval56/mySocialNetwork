@@ -22,29 +22,29 @@
     </section>
     <section class = "section-input">
         <div class="wrapper-inner">
-            <div class="name-fields">
-                <div class="user-field">
-                    Номер студенческого
+            <form method="post" action="/Login.html" class="field-enter">
+                <div class="input-data">
+                    <label for="username" class = "name-fields">Имя пользователя:</label>
+                        <input type="text" id="username" name="username" placeholder="Имя пользователя"><br>
                 </div>
-                <div class="password-field">
-                    Пароль
+
+                <div class="input-data">
+                    <div class="password">
+                        <label for="password" class = "name-fields">Пароль:</label>
+                    </div>
+                    <div class="input-password">
+                        <input type="password" id="password" name="password" placeholder="Пароль"><br>
+                    </div>
                 </div>
-            </div>
-            <div class="name-fields">
-                <div class="search-bar">
-                    <input type="text" placeholder="Ст.Билет">
+
+                <div class="button-enter">
+                    <button id = "enter" class = "enter">Вход</button>
                 </div>
-                <div class="search-bar">
-                    <input type="password" placeholder="Пароль">
-                </div>
-            </div>
+            </form>
         </div>
     </section>
     <section class = "section-bottom">
         <div class="wrapper-inner">
-            <div class="button-enter">
-                <button id = "enter" class = "enter">Вход</button>
-            </div>
             <div class="button-sign-up">
                 <button id = "sign-up" class = "sign-up">Зарегистрироваться</button>
             </div>
