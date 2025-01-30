@@ -103,31 +103,20 @@ button:hover {
     border-radius: 4px
 }
 
-.username{
-    display: flex;
-    align-items: center;
-    gap: 10vw; /* Расстояние между текстом и полем ввода */
-    margin-bottom: 10px;
-}
-
-.username-text{
-    white-space: nowrap;
-}
-
 .section-input{
     .wrapper-inner{
-        flex-direction:column;
+        flex-direction:row;
         font-size:30px;
     }
 }
 
-.password-text{
-    white-space: nowrap;
+.name-fields{
+    display:flex;
+    flex-direction:column;
+    gap:2vw;
 }
 
-.password{
-    display: flex;
-    align-items: center;
-    gap: 19vw; /* Расстояние между текстом и полем ввода */
-    margin-bottom: 10px;
+.sign-up{
+    text-decoration: underline;
 }
+
